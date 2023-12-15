@@ -1,4 +1,21 @@
 {
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Playground cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glgeorgiou/TestingWithCypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glgeorgiou/TestingWithCypress/issues"
+  },
+  "homepage": "https://github.com/glgeorgiou/TestingWithCypress#readme",
   "devDependencies": {
     "cypress": "^13.6.1"
   }
