@@ -1,5 +1,5 @@
-describe('My first test', () => {
-  it('Visit my sv site', () => {
+describe('Open a web page', () => {
+  it('Visit my cv site', () => {
     cy.visit('https://www.ggeorgiou.gr')
   })
 })
