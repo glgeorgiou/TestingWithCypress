@@ -10,7 +10,6 @@ describe('Udemy course tests', function() {
 
         //Count the products
         cy.get('.products > .product').should('have.length',4)
-        
     })
 
 })
