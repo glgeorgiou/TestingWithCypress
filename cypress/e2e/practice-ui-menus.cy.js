@@ -13,3 +13,20 @@ describe('Testing a static drop down menu in herokuapp site', () => {
     })
 
 })
+
+
+
+describe('Testing e-learning-eduvation.gr', () => {
+    
+    beforeEach( () => {
+        cy.visit('https://www.e-learning-education.gr/');
+    })
+
+    it('Click on \'Επικοινωνία\' menu item', () => {
+        cy.get('#menu-item-108').click()
+    })
+
+    it('Click on a 1st level menu item to enable a hidden submenu', () => {
+        //To be implemented. May be by using AI.
+    })
+})
