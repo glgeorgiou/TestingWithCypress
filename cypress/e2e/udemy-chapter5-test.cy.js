@@ -19,7 +19,7 @@ describe('My e-shop Test site', function() {
 
     it('Put products into cart', function() {
         
-        //Parent-child chaining
+        //Parent-child chaining - NOTE: Time out error even at 6 seconds from previews test case.
         cy.get('.products').find('.ast-grid-common-col').each(($el, index, $list) => {
             let ben = $el.find('.woocommerce-loop-product__title').text()
             if(ben.includes('beanie')) {
