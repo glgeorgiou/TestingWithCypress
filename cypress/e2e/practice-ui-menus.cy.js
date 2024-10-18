@@ -27,6 +27,12 @@ describe('Testing e-learning-eduvation.gr', () => {
     })
 
     it('Click on a 1st level menu item to enable a hidden submenu', () => {
-        //To be implemented. May be by using AI.
+
+        // Find the "Χρήσιμα Tips" menu item
+        cy.contains('Χρήσιμα Tips').trigger('mouseover');; // Simulate hover action
+
+        // Check if the sub-menu is visible
+        cy.get('.sub-menu') // BUG: Element is not visible because of CSS hidden property.
+        .should('be.visible');  
     })
 })
